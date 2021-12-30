@@ -13,7 +13,6 @@ pinkBtn.addEventListener('click', function(){
         errImg.classList.add('show');
         emailInpt.classList.add('border-red');
         result.innerHTML = 'Please provide a valid email';
-        emailInpt.focus();
     } else {
         emailInpt.value = " ";
         errImg.classList.add('hide');
